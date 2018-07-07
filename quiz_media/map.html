@@ -11,7 +11,7 @@
     .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
     .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
 </style>
-<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
 <body>
@@ -44,17 +44,17 @@
     }
     
     //地图控件添加函数：
-    function addMapControl(){
+//    function addMapControl(){
         //向地图中添加缩放控件
-	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
-	map.addControl(ctrl_nav);
+//	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+//	map.addControl(ctrl_nav);
         //向地图中添加缩略图控件
-	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
-	map.addControl(ctrl_ove);
+//	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+//	map.addControl(ctrl_ove);
         //向地图中添加比例尺控件
-	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
-	map.addControl(ctrl_sca);
-    }
+//	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+//	map.addControl(ctrl_sca);
+//    }
     
     //标注点数组
     var markerArr = [{title:"我的标记",content:"我的备注",point:"121.136183|31.463584",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
